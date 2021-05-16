@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: white;
+  font-family: "poppins";
+  font-weight: 700;
+}
+body {
+  background: url("images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+}
+.right {
+  float: right;
+  padding-left: 50px;
+}
+.row {
+  width: 90%;
+  margin: auto;
+}
+.span-1-of-2 {
+  width: 50%;
+  display: inline-block;
+}
+h1 {
+  font-size: 3rem;
+  margin: 45% 0 5% 0;
+  padding-left: 15%;
+}
+
+#p {
+  padding-left: 15%;
+  font-weight: 400;
+}
+.try-btn span {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.try-btn {
+  width: 85%;
+  margin-top: 20%;
+  margin-bottom: 3%;
+  border-style: hidden;
+  border-radius: 10px;
+  background: hsl(248, 32%, 49%);
+  padding: 15px;
+  font-size: 0.8rem;
+  box-shadow: 0 7px rgba(37, 35, 35, 0.219);
+}
+.container {
+  height: 80%;
+  border-radius: 10px;
+  width: 85%;
+  background-color: white;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.list,
+.claim-btn {
+  width: 85%;
+  color: hsl(249, 10%, 26%);
+  font-weight: 600;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin: 8px;
+  font-size: 0.8rem;
+
+  border: 1px rgba(202, 198, 198, 0.39) solid;
+}
+.claim-btn {
+  background: hsl(154, 59%, 51%);
+  color: white;
+  border: none;
+  font-weight: 500;
+  border-bottom: hsl(154, 56%, 38%) 3px solid;
+}
+.description {
+  color: hsl(246, 25%, 77%);
+  font-size: 0.6rem;
+}
+.description a {
+  font-size: 0.6rem;
+  color: hsl(0, 100%, 74%);
+  text-decoration: none;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
