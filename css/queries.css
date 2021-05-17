@@ -1,0 +1,7 @@
+@media screen and (max-width: 375px) {
+  .span-1-of-2 {
+    width: 100%;
+  }
+  footer {
+  }
+}
